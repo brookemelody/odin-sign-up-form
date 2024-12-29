@@ -9,7 +9,7 @@ body {
 }
 
 .left-container {
-    width: 100vw;
+    width: 60vw;
     height: 100vh;
     background-image: url("./halie-west-25xggax4bSA-unsplash.jpg");
     background-size: cover;
@@ -56,9 +56,69 @@ body {
 }
 
 .description-text {
+    text-align: left;
     margin-left: 2rem;
+    font-size: 0.6rem;
+    margin-top: 8rem;
+}
+
+.form-container {
+    box-shadow: 5px 2px 2px 1px gray;
+    padding: 1.5rem 0.1rem 1rem 0.1rem;
+}
+
+fieldset {
+    border: none;
+}
+
+legend {
+    font-weight: bold;
 }
 
 label {
     text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.8rem;
+    color: rgb(75, 74, 74);
+}
+
+input {
+    border: #E5E7EB 1.5px solid;
+    border-radius: 3px;
+    height: 1.3rem;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    gap: 4rem;
+    margin-bottom: 1rem;
+}
+
+.buttons-container-contents {
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+#create-account-button {
+    background-color: #596D48;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 0.8rem 2.5rem 0.8rem 2.5rem;
+    border-radius: 10px;
+}
+
+#buttons-container {
+    height: 100%;
+}
+
+#buttons-container a {
+    font-weight: bold;
+    color: #596D48;
+    text-decoration: none;
 }
