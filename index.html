@@ -15,23 +15,22 @@
         <p id="photo-credit-text">Photo by <a href="https://unsplash.com/@haliewestphoto" rel="noopener noreferrer">Halie West</a> on <a href="https://unsplash.com/" rel="noopener noreferrer">Unsplash</a></p>
     </div>
     <div class="right-container">
-        <div class="gray-block" id="description">
+        <div id="description">
             <div class="description-text">
                 <h1>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.</h1>
                 <h1>You <em>know</em> you want to.</h1>
             </div>
         </div>
-        <div class="form-container">
-            <form action="" method="post">
+        <form action="" method="post">
+            <div class="white-block">
                 <fieldset>
                     <legend>Let's do this!</legend>
-
                     <div class="row">
                         <div class="field">
                             <label for="first_name">First Name</label>
                             <input type="text" id="first_name" name="first_name" required>
                         </div>
-                        
+                
                         <div class="field">
                             <label for="last_name">Last Name</label>
                             <input type="text" id="last_name" name="last_name" required>
@@ -48,7 +47,6 @@
                             <input type="tel" id="phone" name="phone" required>
                         </div>
                     </div>
-
                     <div class="row">
                         <div class="field">
                             <label for="password">Password</label>
@@ -60,14 +58,10 @@
                         </div>
                     </div>
                 </fieldset>
-            </form>
-        </div>
-        <div class="gray-block" id="buttons-container">
-            <div class="buttons-container-contents">
-                <button type="submit" id="create-account-button">Create Account</button>
-                <p>Already have an account? <a href="">Log in</a></p>
             </div>
-        </div>
+            <button type="submit" id="create-account-button">Create Account</button>
+            <p>Already have an account? <a href="">Log in</a></p>
+        </form>
     </div>
 </body>
 </html>
